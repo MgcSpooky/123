@@ -26,12 +26,12 @@ end
 if theme == "Normal" then
 theme1 = Color3.fromRGB(32,32,32)
 theme2 = Color3.fromRGB(26,26,26)
-theme3 = Color3.fromRGB(176, 148, 255)
+theme3 = Color3.fromRGB(247,132,201)
 print("Theme selected: "..theme)
 elseif theme == "Reverse" then
     theme1 = Color3.fromRGB(26,26,26)
     theme2 = Color3.fromRGB(32,32,32)
-    theme3 = Color3.fromRGB(176, 148, 255)
+    theme3 = Color3.fromRGB(247,132,201)
     print("Theme selected: "..theme)
 elseif theme == "Blood" then
     theme1 = Color3.fromRGB(32,32,32)
@@ -115,7 +115,7 @@ Toggle.Position = UDim2.new(0.00900000613, 0, 0.142857149, 0)
 Toggle.Rotation = 90.000
 Toggle.Size = UDim2.new(0, 15, 0, 16)
 Toggle.ImageColor3 = Color3.fromRGB(255, 255, 255)
-Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=4731371541"
+Toggle.Image = ""
 
 Main.Name = "Main"
 Main.Parent = Top
